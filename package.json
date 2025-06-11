@@ -16,6 +16,7 @@
     "@mastra/libsql": "^0.10.1",
     "@mastra/loggers": "^0.10.1",
     "@mastra/memory": "^0.10.2",
+    "@openrouter/ai-sdk-provider": "^0.7.1",
     "mastra": "^0.10.3",
     "next": "15.3.3",
     "react": "^19.0.0",
