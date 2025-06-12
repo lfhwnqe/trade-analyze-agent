@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "dev:mastra": "mastra dev --dir src/mastra",
-    "build:mastra": "mastra build --dir src/mastra"
+    "build:mastra": "mastra build --dir src/mastra",
+    "libsql:local": "./scripts/start-libsql-local.sh",
+    "libsql:turso": "./scripts/start-libsql-turso.sh",
+    "dev:local": "yarn libsql:local && yarn dev:mastra",
+    "dev:turso": "yarn libsql:turso && yarn dev:mastra"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.19",
